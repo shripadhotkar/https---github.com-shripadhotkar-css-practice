@@ -1,0 +1,49 @@
+body {
+    background-color: hsl(0, 0%, 94%);
+    display: grid;
+    place-items: center;
+    font-family: "Urbanist", sans-serif;
+  }
+  
+  .hero-section {
+    width: 50%;
+  }
+  
+  h1 {
+    font-size: 54px;
+    font-weight: 900;
+    /*?textpropertiesstartshere*/
+    text-align: left;
+    text-decoration-line: underline;
+    -moz-text-decoration-line: underline;
+    text-decoration-color: red;
+    -moz-text-decoration-color: red;
+    text-decoration-thickness: 10px;
+    text-decoration-style: solid;
+    -moz-text-decoration-style: solid;
+    text-transform: capitalize;
+    text-shadow: -2px -2px 5px rgba(255, 0, 0, 0.2);
+  }
+  
+  p,
+  a {
+    font-size: 20px;
+    font-weight: 400;
+    /*? text properties starts here  */
+    letter-spacing: 1.2px;
+    word-spacing: 1px;
+    line-height: 1.56;
+    /* white-space: nowrap; */
+  }
+  
+  a {
+    text-decoration: none;
+    color: red;
+  }
+  
+  p::first-letter {
+    text-transform: uppercase;
+    font-size: 48px;
+    font-weight: 600;
+  }
+  
