@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>que1</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+            color: white;
+        }
+        #navbar{
+            height: 60px;
+            background-color: #0f1111;
+        }
+        
+        button{
+            background-color:#f08804;
+        }
+        
+        #logo{
+            color: #f08804;
+            font-size: 25px;
+        }
+        
+        a{
+            margin-right: 200px;
+            text-decoration: none;
+        }
+        
+        #content-area{
+            height:735px ;
+            
+        
+        }
+        .content-box{
+            height:100px ;
+            width:100px ;
+            /* background-color:rgba(255, 0, 0, 0.5);*/
+            border: 1px solid black;
+            display: inline-block;
+            color: black;
+        }
+        /*.content-box2{
+            height:100px ;
+            width:100px ;
+            background-color:rgba(0, 255, 0, 0.5);
+            border: 1px solid black;
+        }
+        .content-box3{
+            height:100px ;
+            width:100px ;
+            background-color:rgba(0, 0, 255, 0.5);
+            border: 1px solid black;
+        }*/
+
+        footer{
+            background-color: #0f1111;
+            color:white;
+            text-align: center;
+        }
+      
+    </style>
+</head>
+<!--
+Q.1: Create a webpage layout with a header, a footer & a content area containing 3 divs.
+Set the height & width of divs to 100px.
+(add the previous navbar in the header)
+Q2: Add borders to all the divs.
+Q3: Add a different background color to each div with an opacity of 0.5 (me <style> tag mada dilo apn inline <style> made pn 
+    add karu shakta !! )
+Q4: Give the content area an appropriate height. -->
+<body>
+    <header>
+        <div id="navbar">
+            <a href="#"id="logo">amazon.in</a>
+            <a href="#"> Account</a>
+            <a href="#"> My Cart</a>
+            <a href="#"> Contact Us</a>
+            <input type="textbox" placeholder="search Amazon.in">
+            <button> Search </button>
+            
+        </div>
+    </header>
+    <div id="content-area">
+        <div class="content-box" style="background-color: rgba(255, 0,0,0.5);"> Buy Your Fav Branded Clothes !!</div>
+        <div class="content-box" style="background-color: rgba(0, 255,0,0.5);"> Buy Your Fav Branded Mobiles !! </div>
+        <div class="content-box" style="background-color: rgba(0, 0,255,0.5);"> Buy Your Fav Branded Shoes !!</div>
+
+    </div>
+    <footer>
+        made with &hearts; by Amazon &smile; !! 
+        <br>
+        &#169; All Rights Reserved !! 
+    </footer>
+</body>
+</html>
