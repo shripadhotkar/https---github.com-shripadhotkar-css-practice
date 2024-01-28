@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Background_img</title>
+    <style>
+        div{
+            height: 100px;
+            width: 100px;
+            border: 1px dotted black;
+            background-color: blanchedalmond;
+            display: inline-block;  
+        }
+        body{
+            background-image: url("coder.jpg");
+            background-size: contain;
+            background-repeat: no-repeat;
+            background-size: 100% auto;
+        }
+        #box1{
+            background-image: url("coder.jpg");
+            background-size:cover;
+        }
+        #box2{
+            background-image: url("coder.jpg");
+            background-size:contain;
+        }
+        #box3{
+            background-image: url("coder.jpg");
+            background-size:auto;
+        }
+        #box4{
+            background-image: url("coder.jpg");
+            background-size:100% auto;
+            background-repeat: no-repeat;
+
+        }
+       
+    </style>
+</head>
+<body>
+    <div id="box1">box 1</div>
+    <div id="box2">box 2</div>
+    <div id="box3">box 3</div>
+    <div id="box4">box 4</div>    
+</body>
+</html>
