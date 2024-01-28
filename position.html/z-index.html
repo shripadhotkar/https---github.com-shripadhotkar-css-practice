@@ -3,9 +3,41 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>z-index</title>
+    <style>
+        div{
+            height: 100px;
+            width: 100px;
+            border: 1px solid black;
+            display: inline-block;
+        }
+        #box1{
+            background-color: rgb(255, 0, 0);
+            position: relative;
+            left: 3%;  
+            z-index: -1;
+        }
+        #box2{
+            background-color: rgb(0,255, 0 );
+            z-index: 1;
+        }
+        #box3{
+            background-color: rgb(0,0, 255);
+            position: relative;
+            left: 43px;
+            z-index: -1;
+        }
+        #box4{
+            background-color: rgb(19,175, 199);
+            z-index: 1;
+        }
+    </style>
 </head>
 <body>
-    
+    <div id="box1"> box1</div>
+    <div id="box2"> box2</div>
+    <div id="box3"> box3</div>
+    <div id="box4"> box4</div>
+
 </body>
 </html>
