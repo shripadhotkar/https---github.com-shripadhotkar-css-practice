@@ -5,35 +5,53 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>que1</title>
     <style>
-        ul{
-            background-color: lightgreen;
-            display: flex;
-            justify-content: center;
-        }
-        a{
-            text-decoration: none;
-            color: black;
-        
-        }
-        li{
-            list-style: none;
-            display: inline;
-            background-color: lightseagreen;
-        }
+      a{
+        color: black;
+        text-decoration: none;
+      }
+      li{
+        list-style: none;
+        display: inline; /*kalatar sagla elements navbar ----  cha line made yatat  */
+      }
+      #navbar{
+        background-color: lightyellow;
+        border: 1px dotted lightsalmon;
+        display: flex; /*kalatar sagla elements navbar box mada yatat  ( row direction )*/ 
+        justify-content: space-evenly; /* kalatar sagla nava na proper space bhattay */
+      }
+      #outer{
+        height: 400px;
+        width: 400px;   
+        background-color: aqua;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+      #inner{
+        height: 100px;
+        width: 100px;
+        background-color: red;
+        align-self: flex-start;
+    }
     </style>
+<!-- Qs: Create a navbar with 4 options in the form of anchor tags inside list items. 
+    Now, use flexbox to place them all spaced equally in a single line.
+    Qs: Use flexbox to center one div inside another div.
+    Qs: Which has higher priority - align-items or align-self? -->
 </head>
-<!-- * Create a navbar with 4 options in the form of anchor tags inside list items.
-Now, use flexbox to place them all spaced equally in a single line.
-* Use flexbox to center one div inside another div
-* Which has higher priority - align-items or align-self? -->
 <body>
-    <div id="navbar">
-        <ul>
+    
+        <ul id="navbar">
             <li><a href="#" target="_blank">Home</a></li>
-            <li><a href="#" target="_blank">About</a></li>
-            <li><a href="#" target="_blank">Login</a></li>
-            <li><a href="#" target="_blank">SignUp</a></li>
+            <li><a href="#" target="_blank">About-Us</a></li>
+            <li><a href="#" target="_blank">Help</a></li>
+            <li><a href="#" target="_blank">Contact-Us</a></li>
         </ul>
-    </div>
+        <div id="outer">
+            <div id="inner">
+
+            </div>
+        </div>
+   
 </body>
 </html>
