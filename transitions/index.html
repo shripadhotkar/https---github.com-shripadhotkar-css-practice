@@ -10,13 +10,16 @@
             width: 150px;
             background-color: lightskyblue;
             border: 1px dotted black;
-        }
+            transition: all 4s ease-in 3ms;
+            }
         div:hover{
             background-color: red;
             color: lightgoldenrodyellow;
+            font-size: 23px;
         }
         div:active{
-            background-color: olivedrab;
+            background-color: olivedrab;    
+            transition-duration: 0s;
         }
     </style>
 </head>
@@ -24,5 +27,9 @@
     <div>
         this is my box 1 
     </div>
+    <!--   113th line cha material ahey ->  transition-property: all;
+                                            transition-duration: 4s;
+                                            transition-timing-function: steps();
+                                            transition-delay: 3s;-->
 </body>
 </html>
