@@ -1,0 +1,17 @@
+#loder{
+    height: 250px;
+    width: 250px;
+    border: 20px solid blue;
+    border-top: 20px solid red;
+    border-radius: 50%;
+    animation:spin 2s ease-in-out infinite normal ;
+    
+}
+@keyframes spin{
+    form{
+        transform: rotate(0deg);
+        }
+    to{
+        transform: rotate(360deg);
+        }
+}

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>animation%2</title>
+    <style>
+        body{
+            background-color: grey  ;
+        }
+        #div1{
+            position: absolute;
+            top: 35%;
+
+        }
+        div{
+            height: 100px;
+            width: 100px;
+            background-color: azure;
+            border: 1px solid black;
+            border-radius: 10px;
+            animation: shri 3s ease-in 1s infinite normal;
+        }
+        @keyframes shri{
+            0%{
+                left: 0%;
+                background-color: azure;
+            }
+            10%{
+                background-color: red;
+            }
+            20%{
+                background-color:orange ;
+            }
+            30%{
+                background-color: yellow;
+            }
+            40%{
+                background-color: green;
+            }
+            50%{
+                background-color: blue;
+            }
+            60%{
+                background-color: violet;
+            }
+            70%{
+                background-color: pink;
+            }
+            80%{
+                background-color: burlywood;
+            }
+            90%{
+                background-color: chocolate;
+            }
+            100%{
+                left: 80%;
+                background-color: aquamarine;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div style="text-align: center;" id="div1">
+            Color 
+            <br>
+           Changer
+           <br>
+             ❤️
+    </div>
+</body>
+</html>
