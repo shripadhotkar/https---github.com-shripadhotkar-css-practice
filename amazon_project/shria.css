@@ -1,0 +1,20 @@
+*{
+    margin : 0;
+    font-family: Arial;
+    border:boder-box;
+}
+.navbar{
+    height: 60px;
+    background-color: #0f1111;
+
+}
+
+.nav-logo{
+    height : 50px;
+    width: 113px;
+}
+
+.logo{
+    background-image : url("./img/download2.png");
+    height: 50px;
+}
