@@ -17,12 +17,12 @@ html,body{
 #main{
     height: 100%;;
     width: 100%;
-    background-color: lightgray;
+    background-color: white;
 }
 #nav{
     height: 100px;
     width: 100%;
-    background-color: aqua;
+    background-color: white;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -36,7 +36,7 @@ html,body{
 }
 
 #nav h3{
-    font-size: 16px;
+    font-size: 17px;
     border: 1.5px solid black;
     border-radius: 50px;
     font-weight: 500;
@@ -44,7 +44,7 @@ html,body{
     -moz-border-radius: 50px;
     -ms-border-radius: 50px;
     -o-border-radius: 50px;
-    padding: 5px 10px;
+    padding: 5px 8px;
 }
 
 #nav i{
@@ -73,5 +73,111 @@ html,body{
     -ms-border-radius: 50px;
     -o-border-radius: 50px;
     border: 1.5px solid black;
-    font-size: 17p;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+#shri{
+    border: none;
+    background-color: orangered;
+    color: white;
+}
+
+#main>h1{
+    /*display: flex;
+    justify-content: center;
+    align-items: center;
+    *//*color: rebeccapurple;
+    */
+    font-size: 150px;
+    text-transform: uppercase;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform:translate(-50%,-50%) ;
+    -webkit-transform:translate(-50%,-50%) ;
+    -moz-transform:translate(-50%,-50%) ;
+    -ms-transform:translate(-50%,-50%) ;
+    -o-transform:translate(-50%,-50%) ;
+    width: 100%;
+    text-align: center;
+    
+
+}
+
+img{
+    height:480px ;
+    width: 350px;
+    object-fit: cover;
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    -webkit-transform: translate(-50%,-50%);
+    -moz-transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+    -o-transform: translate(-50%,-50%);
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+}
+
+#img-1{
+    transform: translate(-50%,-50%) rotate(-30deg);
+    -webkit-transform: translate(-50%,-50%) rotate(-30deg);
+    -moz-transform: translate(-50%,-50%) rotate(-30deg);
+    -ms-transform: translate(-50%,-50%) rotate(-30deg);
+    -o-transform: translate(-50%,-50%) rotate(-30deg);
+}
+
+#img-2{
+    transform: translate(-50%,-50%) rotate(-20deg);
+    -webkit-transform: translate(-50%,-50%) rotate(-20deg);
+    -moz-transform: translate(-50%,-50%) rotate(-20deg);
+    -ms-transform: translate(-50%,-50%) rotate(-20deg);
+    -o-transform: translate(-50%,-50%) rotate(-20deg);
+}
+
+
+#img-3{
+    transform: translate(-50%,-50%) rotate(-10deg);
+    -webkit-transform: translate(-50%,-50%) rotate(-10deg);
+    -moz-transform: translate(-50%,-50%) rotate(-10deg);
+    -ms-transform: translate(-50%,-50%) rotate(-10deg);
+    -o-transform: translate(-50%,-50%) rotate(-10deg);
+}
+
+
+#img-4{
+    transform: translate(-50%,-50%) ;
+    -webkit-transform: translate(-50%,-50%) ;
+    -moz-transform: translate(-50%,-50%) ;
+    -ms-transform: translate(-50%,-50%) ;
+    -o-transform: translate(-50%,-50%) ;
+}
+
+#btm-left{
+    position:absolute;
+    bottom: 5%;
+    left: 2.2%;
+    font-size: 17px;
+}
+
+#btm-right{
+    position:absolute;
+    bottom: 5%;
+    right: 2.2%;
+    font-size: 17px;
+}
+
+#logo-s{
+    position: absolute;
+    bottom: 8%;
+    right: 2.2%;
+}
+
+i{
+    
 }
