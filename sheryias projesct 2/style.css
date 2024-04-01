@@ -156,5 +156,48 @@ html,body{
     height: 100%;
     width: 70%;
     /* background-color: yellow; */
+    padding: 0px 60px;
+
+}
+
+.work2-part{
+    /* background-color: rebeccapurple; */
+    padding: 0px 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+    padding: 50px 0px ;
+}
+
+.work2-part:nth-child(1){
+    /* background-color: aqua; */
+    border-bottom: 2px solid black;
+    padding-top: 0px;
+}
+
+.work2-part .elem{
+    width: 50%;
+    height: 100%;
+}
+
+.work2-part .elem:nth-child(1){
+    border-right: 2px solid black;
+    padding-right: 50px;
+}
+
+.work2-part .elem:nth-child(2){
+    padding-left: 50px;
+}
+
+.work2-part .elem h4{
+    font-size: 45px;
+    font-weight: 600;
+    margin-bottom: 10px;
+
+}
+
+.work2-part .elem p{
+    font-size: 20px;
+    color: #1e1e21b3;
 
 }
