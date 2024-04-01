@@ -121,3 +121,40 @@ html,body{
     -o-border-radius: 50px;
     margin-right: 10px;
 }
+
+#work{
+    height: 55%;
+    width: 100%;
+    /* background-color: antiquewhite; */
+    border-top: 2px solid black;
+    display: flex;
+    align-items: center;
+    padding: 50px 60px ;
+
+}
+
+#work1{
+    width: 30%;
+    height: 100%;
+    /* background-color: aqua; */
+    border-right: 2px solid black;
+    display: flex;
+    padding-right: 60px;
+    justify-content: space-between;     
+}
+
+#work1 h3 {
+    font-size: 33px;
+    font-weight: 600px;
+}
+
+#work1 i {
+    font-size: 30px;
+}
+#work2{
+    
+    height: 100%;
+    width: 70%;
+    /* background-color: yellow; */
+
+}
