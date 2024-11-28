@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: gilroy;
 }
 
 html,body{
@@ -9,14 +10,119 @@ html,body{
     width: 100%;
 }
 
+@font-face {
+    font-family: gilroy;
+    src: url(./Gilroy-Light.otf);
+}
 #main{
     height: 100%;
     width: 100%;
-    background-color: blanchedalmond;
+    /* background-color: blanchedalmond; */
 }
 
 #nav{
     height: 100px;
     width: 100%;
-    background-color: aqua;
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: space-between;
+    padding: 45px 65px ;
+}
+
+#nav-part1 {
+    display: flex;
+    justify-content: space-between;
+    width: 40%;
+}
+
+#nav-part2{
+    display: flex;
+    justify-content: space-between;
+    width: 35%;
+}
+
+#nav h3{
+    font-size: 25px;
+    font-weight: 600;
+}
+
+
+#nav h2{
+    font-size: 25px;
+    font-weight: 600;
+}
+
+
+#nav h4{
+    font-size: 25px;
+    font-weight: 600;
+}
+
+#content{
+    margin-top: 60px;
+    padding: 45px 65px; 
+}
+
+#content h3{
+    font-size: 40px;
+    font-weight: 600;
+}
+
+
+#content h1{
+    margin-top: 30px;   
+    font-size: 135px;
+    font-weight: 600;
+    line-height: 165px;
+    letter-spacing: -7px;
+    word-spacing: 12px;
+}
+
+#case{
+    margin-top: 100px;
+    padding: 45px 65px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#case h4{
+    font-size: 26px;
+    font-weight: 600;
+}
+
+
+#case h5{
+    font-size: 26px;
+    font-weight: 600;
+}
+
+#right{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+#line{
+    height: 2px;
+    width: 160px;
+    background-color: black;
+}
+
+#projects{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 45px 65px;
+    gap: 60px;
+}
+
+/* .elem{
+    width: 50%;
+} */
+
+#elem
+
+#elem-img{
+
 }
